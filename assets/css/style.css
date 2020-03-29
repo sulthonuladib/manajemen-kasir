@@ -1,0 +1,326 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fontgoogle/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {margin:0; padding:0;}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:28px;
+   
+}
+.set-radius-zero {
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.content-wrapper {
+    margin-top: 20px;
+    min-height: 400px;
+    padding-bottom:20px;
+}
+.header-line {
+    font-weight:900;
+    padding-bottom:25px;
+    border-bottom:1px solid #eeeeee;
+    text-transform:uppercase;
+}
+.pad-botm {
+    padding-bottom:30px;
+}
+
+
+/* =============================================================
+   NAVBAR & MENU STYLES
+ ============================================================ */
+
+.right-div {
+    float: right; 
+    padding: 20px;
+}
+#menu-top a {
+    color:#000;
+    text-decoration:none;
+    font-weight:500;
+    padding: 10px 15px 10px 15px;
+    text-transform:uppercase;
+
+}
+.menu-section {
+    background-color: #f7f7f7;
+    border-bottom:5px solid #9170E4;
+    width:100%
+}
+.menu-top-active {
+    background-color:#eeeeee;
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: rgba(155, 153, 153, 0.23);
+
+}
+
+.navbar {
+    min-height: 120px;
+    margin-bottom: 0px;
+    background: #00a8cc;
+   
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+}
+.navbar-toggle {
+background-color: black;
+border: 1px solid black;
+}
+
+    /* =============================================================
+   DASHBOARD STYLES
+ ============================================================ */
+
+.img-comments {
+   border: 3px double #e1e1e1;
+height: 60px;
+
+}
+
+.chat-widget-main {
+    max-height:330px;
+    overflow:auto;
+}
+
+.slide-bdr {
+   border:5px solid #9170E4
+}
+.chat-widget-left:after {
+    top: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-top-color: #F70E62;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.chat-widget-left {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #F70E62;
+    font-size:12px;
+}
+.chat-widget-right:after {
+    top: 100%;
+    right: 10%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-top-color: #5AA8CC;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.chat-widget-right {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #5AA8CC;
+    font-size:12px;
+}
+
+.chat-widget-name-left {
+   color: #808080;
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align:left;
+}
+
+    .img-left-chat {
+        border:3px double #e1e1e1;
+        float:left;
+        margin-right:30px;
+    }
+     .img-right-chat {
+        border:3px double #e1e1e1;
+        float:right;
+        margin-left:30px;
+    }
+     .chat-widget-main img-right {
+        border:3px double #e1e1e1;
+        float:left;
+    }
+.chat-widget-name-left h4 {
+    font-weight:normal;
+    font-size:11px;
+    
+}
+.chat-widget-name-left h5 {
+    font-weight:normal;
+    font-size:10px;
+}
+.chat-widget-name-right h4 {
+    font-weight:normal;
+    font-size:11px;
+}
+.chat-widget-name-right h5 {
+    font-weight:normal;
+    font-size:10px;
+}
+.chat-widget-name-right {
+    color: #808080;
+    margin-top: 40px;
+    margin-right: 60px;
+    text-align:right;
+}
+
+.recent-users-sec img {
+    max-height:80px;
+    margin:15px;
+}
+
+.back-widget-set {
+    background-color:transparent;
+}
+
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+.footer-section {
+    color:#000;
+    font-size:13px;
+    background-color: #f7f7f7;
+    text-align:center;
+    border-top:5px solid #9170E4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+    .footer-section a, .footer-section a:hover {
+        color:#9170E4;
+    }
+
+    .w3-bar{width:100%;overflow:hidden}
+    .w3-center .w3-bar{display:inline-block;width:auto}
+    .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+    .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+    .w3-bar .w3-button{white-space:normal}
+    .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+    .w3-bar-block.w3-center .w3-bar-item{text-align:center}
+    .w3-block{display:block;width:100%}
+    .w3-container,.w3-panel{padding:0.01em 16px}
+    .w3-panel{margin-top:10px;margin-bottom:10px}
+    .w3-button:hover{color:#000!important;background-color:#ccc!important}
+    .w3-right{float:right!important}
+    .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+    .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+    .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+    .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+    .formSidebar {
+        height:100%;
+        background-color:#fff;
+        position:fixed!important;
+        z-index:1;overflow:auto
+    }
+
+  @media screen and (max-width: 720px) {
+    #rightMenu {
+        display:none;
+    }
+
+    #main-isi {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+}
+
+  @media print {    
+      .no-print, .no-print *
+      {
+          display: none !important;
+      }
+  }
+
